@@ -11,7 +11,7 @@ PROJECT_ROOT = os.path.abspath(os.path.dirname(__file__))
 
 
 def load_requirements():
-    with open(os.path.join(PROJECT_ROOT, "requirements", "requirements.txt"), "r") as f:
+    with open(os.path.join(PROJECT_ROOT, "requirements.txt"), "r") as f:
         return f.read().splitlines()
 
 
